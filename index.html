@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Времена года</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<a href="" class="logo">
+				<span>P</span>
+				<span>R</span>
+				<span>I</span>
+				<span>U</span>
+				<span>E</span>
+				<span>T</span>
+			</a>
+			<div class="nav-toggle"><span></span></div> <!-- кнопка сокрытия меню -->
+			<form action="" method="get"  id="searchform">
+				<input type="text" placeholder="Search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+			<ul id="menu">
+				<li><a href="">Blog</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">About</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- 	блок с кратким содержанеим статьи -->
+	<div class="container">
+		<div class="posts-list">
+			<article id="post-1" class="post">
+				<div class="post-image">
+					<a href="">
+						<img src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_slovar_rodnoy_prirodi.jpg"></a>
+				</div>
+				<div class="post-content">
+					<div class="category">
+						<a href="">Дизайн</a>
+					</div>
+					<h2 class="post-title">Весна</h2>
+					<p>Очень богат русский язык словами, относящимися к временам года и к природным явлениям, с ними связанным.</p>
+					<div class="post-footer">
+						<a href="" class="more-link">Continue reading</a>
+					</div>
+					<div class="post-social">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-pinterest"></i></a>
+					</div>
+				</div>
+			</article>
+			<article id="post-2" class="post">
+				<div class="post-image">
+					<a href="">
+						<img src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_Russia.jpg"></a>
+				</div>
+				<div class="post-content">
+					<div class="category">
+						<a href="">Дизайн</a>
+					</div>
+					<h2 class="post-title">Лето</h2>
+					<p>Очень богат русский язык словами, относящимися к временам года и к природным явлениям, с ними связанным.</p>
+					<div class="post-footer">
+						<a href="" class="more-link">Continue reading</a>
+					</div>
+					<div class="post-social">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-pinterest"></i></a>
+					</div>
+				</div>
+			</article>
+			<article id="post-3" class="post">
+				<div class="post-image">
+					<a href="">
+						<img src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_rodnaya_priroda_osen.jpg"></a>
+				</div>
+				<div class="post-content">
+					<div class="category">
+						<a href="">Дизайн</a>
+					</div>
+					<h2 class="post-title">Осень</h2>
+					<p>Очень богат русский язык словами, относящимися к временам года и к природным явлениям, с ними связанным.</p>
+					<div class="post-footer">
+						<a href="" class="more-link">Continue reading</a>
+					</div>
+					<div class="post-social">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-pinterest"></i></a>
+					</div>
+				</div>
+			</article>
+		</div><!-- конец div class="posts-list"-->
+	<aside>
+		<div class="widget">
+			<h3 class="widget-title">Categories</h3>
+			<ul class="widget-category-list">
+				<li><a href="">Design</a>(9)</li>
+				<li><a href="">Layout</a>(5)</li>
+				<li><a href="">Video</a>(3)</li>
+			</ul>
+		</div><!--конец списка категорий-->
+		<div class="widget">
+			<h3 class="widget-title">Recent posts</h3>
+			<ul class="widget-posts-list">
+				<li>
+					<div class="post-image-small">
+						<a href="">
+							<img src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_slovar_rodnoy_prirodi.jpg">
+						</a>
+					</div>
+					<h4 class="widget-post-title">Весна</h4>
+				</li>
+				<li>
+					<div class="post-image-small">
+						<a href="">
+							<img src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_slovar_rodnoy_prirodi.jpg">
+						</a>
+					</div>
+					<h4 class="widget-post-title">Лето</h4>					
+				</li>
+				<li>
+					<div class="post-image-small">
+						<a href="">
+							<img src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_slovar_rodnoy_prirodi.jpg">
+						</a>
+					</div>
+					<h4 class="widget-post-title">Осень</h4>					
+				</li>
+			</ul>
+		</div><!--конец списка последних постов-->
+		<div class="widget">
+			<h3 class="widget-title">Подписка на рассылку</h3>
+			<form action="" method="post" id="subscribe">
+				<input type="email" name="email" placeholder="Your e-mail" required>
+				<button type="submit"><i class="fa fa-paper-plane-o"></i></button>
+			</form>
+		</div><!--конец блока подписка на рассылку-->
+	</aside><!--конец боковой секции-->
+	</div><!-- конец div class="container"-->
+
+	<!--FOOTER-->
+	<footer>
+		<div class="container">
+			<div class="footer-col"><span>My Blog © 2016</span></div>
+			<div class="footer-col">
+				<div class="social-bar-wrap">
+					<a href="" title="Facebook"><i class="fa fa-facebook"></i></a>
+					<a href="" title="Twitter"><i class="fa fa-twitter"></i></a>
+					<a href="" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+					<a href="" title="Instagram"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="footer-col">
+				<a href="mailto:nancy56@list.ru">Send an e-mail</a>
+			</div>
+		</div>
+	</footer>
+<script>
+$('.nav-toggle').on('click', function(){
+$('#menu').toggleClass('active');
+});
+</script>
+</body>
+</html>
